@@ -1,6 +1,2 @@
 resources:
   - ../base
-
-patches:
-  - path: ns.yml
-    target
