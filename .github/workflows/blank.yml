@@ -1,0 +1,13 @@
+name: test
+on:
+  push:
+    branches:
+      - 'test*'
+
+jobs: 
+  release-branch-create:
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: test
+        id: test
+        run: echo "test"
