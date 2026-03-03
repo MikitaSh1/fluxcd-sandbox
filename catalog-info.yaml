@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub
+  description: Mikitas Github
+  annotations:
+    github.com/project-slug: Mikitash1/fluxcd-sandbox
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: mikita
+  lifecycle: development
